@@ -1,0 +1,189 @@
+        * {
+            margin: 20px;
+        }
+        
+        .rect {
+            background-image: linear-gradient(to right top, rgb(101, 53, 205) 5%, rgb(238, 136, 204) 50%);
+            border-radius: 120px;
+            position: absolute;
+            left: 40vw;
+            top: -80vh;
+            transform: rotate(-10deg) skew(10deg);
+            transform-origin: center;
+            width: 60vw;
+            height: 190vh;
+            z-index: -1;
+        }
+        
+        .intro-img {
+            position: absolute;
+            right: 100px;
+            top: 120px;
+            width: 60vw;
+            height: 100vh;
+        }
+        
+        .logo {
+            margin-top: 10px;
+        }
+        
+        .nav-items {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            padding-left: 30px;
+            position: absolute;
+            left: 30%;
+            top: 20px;
+            font-family: orbitron;
+            color: rgb(58, 42, 122);
+        }
+        
+        .signin-btn {
+            background-image: linear-gradient(to right, rgb(119, 26, 232)40%, rgb(239, 25, 203)100%);
+            color: white;
+            font-family: Roboto;
+            border-color: transparent;
+            border-style: solid;
+            border-radius: 30px;
+            padding: 10px 20px;
+            position: absolute;
+            right: 80px;
+        }
+        
+        .left-section {
+            font-family: Roboto;
+        }
+        
+        h1 {
+            color: rgb(84, 54, 176);
+            font-size: 70px;
+            position: absolute;
+            margin-top: 150px;
+            left: 90px;
+        }
+        
+        h4 {
+            color: rgb(108, 86, 173);
+            font-size: 25px;
+            position: absolute;
+            margin-top: 300px;
+            left: 90px;
+        }
+        
+        .vector-img {
+            position: absolute;
+            top: 60px;
+            left: 35em;
+            top: 43em;
+        }
+        
+        .vector-dot {
+            position: absolute;
+            top: 60px;
+            left: 38em;
+            top: 43em;
+        }
+        
+        .learn-more-btn {
+            background-image: linear-gradient(to right, rgb(119, 26, 232, 0.6)40%, rgb(239, 25, 203, 0.6)100%);
+            color: white;
+            font-family: Roboto;
+            font-size: 30px;
+            border-color: transparent;
+            border-style: solid;
+            border-radius: 30px;
+            padding: 10px 30px;
+            position: absolute;
+            left: 5em;
+            top: 20em;
+        }
+        
+        @media screen and (min-width:480px) and (max-width:1024px) {
+            .rect {
+                background-image: linear-gradient(to right top, rgb(101, 53, 205) 5%, rgb(238, 136, 204) 50%);
+                border-radius: 120px;
+                position: absolute;
+                left: 40vw;
+                top: -80vh;
+                transform: rotate(-10deg) skew(10deg);
+                transform-origin: center;
+                width: 60vw;
+                height: 190vh;
+                z-index: -1;
+            }
+            .intro-img {
+                position: absolute;
+                right: 100px;
+                top: 120px;
+                width: 60vw;
+                height: 100vh;
+            }
+            .logo {
+                margin-top: 10px;
+            }
+            .nav-items {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                padding-left: 30px;
+                position: absolute;
+                left: 30%;
+                top: 20px;
+                font-family: orbitron;
+                color: rgb(58, 42, 122);
+            }
+            .signin-btn {
+                background-image: linear-gradient(to right, rgb(119, 26, 232)40%, rgb(239, 25, 203)100%);
+                color: white;
+                font-family: Roboto;
+                border-color: transparent;
+                border-style: solid;
+                border-radius: 30px;
+                padding: 10px 20px;
+                position: absolute;
+                right: 80px;
+            }
+            .left-section {
+                font-family: Roboto;
+            }
+            h1 {
+                color: rgb(84, 54, 176);
+                font-size: 70px;
+                position: absolute;
+                margin-top: 150px;
+                left: 90px;
+            }
+            h4 {
+                color: rgb(108, 86, 173);
+                font-size: 25px;
+                position: absolute;
+                margin-top: 300px;
+                left: 90px;
+            }
+            .vector-img {
+                position: absolute;
+                top: 60px;
+                left: 35em;
+                top: 43em;
+            }
+            .vector-dot {
+                position: absolute;
+                top: 60px;
+                left: 38em;
+                top: 43em;
+            }
+            .learn-more-btn {
+                background-image: linear-gradient(to right, rgb(119, 26, 232, 0.6)40%, rgb(239, 25, 203, 0.6)100%);
+                color: white;
+                font-family: Roboto;
+                font-size: 30px;
+                border-color: transparent;
+                border-style: solid;
+                border-radius: 30px;
+                padding: 10px 30px;
+                position: absolute;
+                left: 5em;
+                top: 20em;
+            }
+        }
